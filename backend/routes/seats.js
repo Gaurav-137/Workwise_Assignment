@@ -2,7 +2,7 @@
 
 const express = require('express');
 const router = express.Router();
-const seatController = require('../controllers/seatController'); // real controller
+const seatController = require('../controllers/seatController'); // Real controller
 
 // Routes
 router.get('/', seatController.getAllSeats);
