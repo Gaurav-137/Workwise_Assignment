@@ -5,7 +5,7 @@
   "homepage": "https://Gaurav-137.github.io/Workwise_Assignment",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --output public",
+    "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
