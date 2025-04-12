@@ -1,0 +1,71 @@
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.app {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.seats-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 40px);
+  gap: 10px;
+  margin: 20px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.seat {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+}
+
+.booked {
+  background-color: #ffc107;
+  color: black;
+}
+
+.available {
+  background-color: #28a745;
+}
+
+.booked-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.booked-label {
+  color: #ffc107;
+}
+
+.available-label {
+  color: #28a745;
+}
