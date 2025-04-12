@@ -89,7 +89,6 @@ const App = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-10">
-      <h1 className="text-3xl font-bold mb-8 text-center">Train Ticket Booking</h1>
 
       <div className="flex flex-col lg:flex-row items-center justify-center gap-12 w-full max-w-7xl px-6">
         {/* Left: Seat Chart */}
